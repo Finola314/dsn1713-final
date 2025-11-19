@@ -1,0 +1,29 @@
+/* hero section */
+#hero-home {
+  background-image: url(../images/home_hero_photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 800px;
+ }
+
+ #hero-menu {
+  background-image: url(../images/menu_hero_photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 800px;
+ }
+
+ #hero-res {
+  background-image: url(../images/reservation_hero_photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 800px;
+ }
+
+ 
