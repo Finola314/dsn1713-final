@@ -5,7 +5,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: Bricolage Grotesque", sans-serif;
 }
 
@@ -13,6 +13,20 @@ h1 {
   color: white;
 }
 
+.card-img-top {
+  width: 250px;
+  height: 250px;
+  position: center;
+}
+
+:root {
+  --bs-primary: #a3bdbd;
+  --bs-primary-rgb: 163, 189, 189;
+  --bs-body-bg: #d8e6e9;
+  --bg-body-tertiary: #a3bdbd;
+  --bg-body-tertiary-rgb: 163, 189, 189;
+
+}
 
 
 .btn-primary {
@@ -93,3 +107,37 @@ h1 {
   height: 800px;
  }
  
+
+
+/* menu section */
+
+
+ .accordion {
+  --bs-accordion-color: #861f29;
+  --bs-accordion-bg: #d8e6e9;
+  
+  --bs-accordion-border-color: white;
+  
+  --bs-accordion-btn-color: white;
+  --bs-accordion-btn-bg: #861f29;
+  
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(134, 31, 41);
+
+  --bs-accordion-active-color: white;
+  --bs-accordion-active-bg: #861f29;
+ }
+
+  /* .accordion {
+  --bs-accordion-color: var(--bs-body-color);
+  --bs-accordion-bg: var(--bs-body-bg);
+  
+  --bs-accordion-border-color: var(--bs-border-color);
+  
+  --bs-accordion-btn-color: var(--bs-body-color);
+  --bs-accordion-btn-bg: var(--bs-accordion-bg);
+  
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+
+  --bs-accordion-active-color: var(--bs-primary-text-emphasis);
+  --bs-accordion-active-bg: var(--bs-primary-bg-subtle);
+ } */
