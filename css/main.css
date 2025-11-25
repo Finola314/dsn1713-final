@@ -1,3 +1,43 @@
+/* general styling */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Bricolage Grotesque", sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+
+
+.btn-primary {
+    --bs-btn-color: white;
+    --bs-btn-border-color: #861f29;
+    --bs-btn-hover-bg: #861f29;
+    --bs-btn-hover-border-color: #861f29;
+    --bs-btn-active-bg: #861f29;
+    --bs-btn-active-border-color: #861f29;
+    --bs-btn-disabled-color: #861f29;
+    --bs-btn-bg: #861f29;
+}
+
+.btn-success {
+    --bs-btn-color: black;
+    --bs-btn-border-color: #b4caca;
+    --bs-btn-hover-bg: #b4caca;
+    --bs-btn-hover-border-color: #b4caca;
+    --bs-btn-active-bg: #b4caca;
+    --bs-btn-active-border-color: #b4caca;
+    --bs-btn-disabled-color: #b4caca;
+    --bs-btn-bg: #b4caca;
+}
+
+
 /* hero section */
 #hero-home {
   background-image: url(../images/home_hero_photo.jpg);
@@ -26,4 +66,30 @@
   height: 800px;
  }
 
+ #home-card-menu {
+  background-image: url(../images/menu_hero_photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 800px;
+ }
+
+ #home-card-about-us {
+  background-image: url(../images/home_hero_photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 800px;
+ }
+
+ #home-card-res {
+  background-image: url(../images/reservation_hero_photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 800px;
+ }
  

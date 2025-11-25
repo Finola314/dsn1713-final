@@ -7,7 +7,11 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -46,7 +50,7 @@
             <div class="col-10 text-center mt-5">
               <h1>The Belmont, Ottawa's Finest</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <button type="button" class="btn btn-danger btn-lg" >Dine with us</button>
+              <button type="button" class="btn btn-success btn-lg" >Dine with us</button>
             </div>
           </div>
         </div>
@@ -70,35 +74,34 @@
     </section>
 
     <section class="py-5">
-      <div class="container">
+      <div class="container d-grid column-gap-3">
+          <div class="row">
+            <div id="home-card-menu" class="card col p-2" style="width: 18rem; height: 8rem;">
+              <!-- use height to make into square or overlay text on image -->
+              <div class="card-body">
+                <p class="card-text">What's to Eat?</p>
+                <a href="pages/menu.html" class="btn btn-primary">View our Menu</a>
+              </div>
+            </div>
+            
+            <div id="home-card-about-us" class="card col p-2" style="width: 18rem; height: 8rem;">
+              <!-- use height to make into square or overlay text on image -->
+              <div class="card-body">
+                <p class="card-text">What We're Up To</p>
+                <a href="pages/menu.html" class="btn btn-primary">See our Events</a>
+              </div>
+            </div> 
 
-        <div class="card" style="width: 18rem; height: 8rem;">
-          <!-- use height to make into square or overlay text on image -->
-          <div class="card-body">
-            <p class="card-text">What's to Eat?</p>
-            <a href="pages/menu.html" class="btn btn-primary">View our Menu</a>
-          </div>
-            <img src="images/menu_hero_photo.jpg" class="card-img-top" alt="...">
+            <div id="home-card-res" class="card col p-2" style="width: 18rem; height: 8rem;">
+              <!-- use height to make into square or overlay text on image -->
+              <div class="card-body">
+                <p class="card-text">Claim Your Spot</p>
+                <a href="#" class="btn btn-primary">Reservation Page</a>
+              </div>
+            </div> 
         </div>
-        
-        <div class="card" style="width: 18rem; height: 8rem;">
-          <!-- use height to make into square or overlay text on image -->
-          <div class="card-body">
-            <p class="card-text">What We're Up To</p>
-            <a href="pages/menu.html" class="btn btn-primary">View our Menu</a>
-          </div>
-            <img src="images/menu_hero_photo.jpg" class="card-img-top" alt="...">
-        </div> 
-
-        <div class="card" style="width: 18rem; height: 8rem;">
-          <!-- use height to make into square or overlay text on image -->
-          <div class="card-body">
-            <p class="card-text">Claim Your Spot</p>
-            <a href="#" class="btn btn-primary">View our Menu</a>
-          </div>
-            <img src="images/blurry_people_sitting_resturant.jpg" class="card-img-top" alt="...">
-        </div> 
       </div>
+      
       <!-- cards 
       claim your spot
       What we're up too
@@ -109,6 +112,40 @@
 
 
     </section>
+
+    <footer class="container">
+      <div class="row">
+        <div class="col">
+          <h3>Contact</h3>
+          <p>613.979.3663</p>
+          <p>info@belmontottawa.com</p>
+        </div>
+        <div class="col">
+          <h3>1169 Bank Street</h3>
+          <p>Ottawa, Ontario</p>
+          <p>K1S 3X7</p>
+        </div>
+        <div class="col">
+          <h3>Hours</h3>
+          <div class="row">
+            <div class="col">
+              <p>Monday - Thursday</p>
+              <p>Friday</p>
+              <p>Saturday</p>
+              <p>Sunday</p>
+            </div>
+            <div class="col">
+              <p>5pm - 10pm</p>
+              <p>5pm - 12am</p>
+              <p>9am - 12am</p>
+              <p>9am - 10pm</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
 
 
   </main>
