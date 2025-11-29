@@ -10,10 +10,12 @@
   <link rel="stylesheet" href="css/main.css">
 
 </head>
+
 <body>
 
+
   <header>
-    <nav class="navbar navbar-expand-lg border-bottom boarder-danger border-5"> 
+    <nav class="navbar navbar-expand-lg bg-primary border-bottom boarder-danger border-5"> 
       <div class="container">
         <a class="navbar-brand" href="../index.html">
           <img src="images/belmont_vector_logo.png" width="30" height="30" alt="Belmont Logo">
@@ -42,7 +44,7 @@
   </header>
 
   <main>
-    <section id="hero-home" class="hero">
+    <section id="hero-home" class="hero bg-primary">
       <div class="container-fluid" id="hero-home-content" data-bs-theme="dark"> 
           <div class="d-flex justify-content-center align-middle p-5">
             <div class="col-10 text-center mt-5">
@@ -54,7 +56,7 @@
         </div>
     </section>
 
-    <section class="py-5 border-bottom">
+    <section class="py-5 border-bottom" >
       <div class="container">
         <h2 class="text-center ">Welcome to the Belmont</h2>
 
@@ -62,7 +64,40 @@
           <div class="col col-12 col-sm-12 col-lg-6  order-sm-1 order-lg-1">
             <h3>Fun Awaits You</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="py-5">
+              <div class="container d-grid column-gap-3 row-gap-2">
+                  <div class="row">
+                    <div id="home-card-menu" class="card col p-2" style="width: 18rem; height: 8rem;">
+                      <!-- use height to make into square or overlay text on image -->
+                      <div class="card-body">
+                        <p class="card-text">What's to Eat?</p>
+                        <a href="pages/menu.html" class="btn btn-sm btn-primary">View our Menu</a>
+                      </div>
+                    </div>
+                    
+                    <div id="home-card-about-us" class="card col p-2" style="width: 18rem; height: 8rem;">
+                      <!-- use height to make into square or overlay text on image -->
+                      <div class="card-body">
+                        <p class="card-text">What We're Up To</p>
+                        <a href="pages/menu.html" class="btn btn-sm btn-primary">See our Events</a>
+                      </div>
+                    </div> 
+
+                    <div id="home-card-res" class="card col p-2" style="width: 18rem; height: 8rem;">
+                      <!-- use height to make into square or overlay text on image -->
+                      <div class="card-body">
+                        <p class="card-text">Claim Your Spot</p>
+                        <a href="#" class="btn btn-sm btn-primary">Reservation Page</a>
+                      </div>
+                    </div> 
+                </div>
+              </div>
+             </div>
+
+
           </div>
+
           <div class="col col-lg-6 col-sm-12 order-sm-2 order-lg-2"> 
             <img class="img-fluid" src="images/happy_customers_eating.jpg" alt="A man and women sharing a meal and smiling at the camera">
           </div>
@@ -71,11 +106,11 @@
 
     </section>
 
-    <section class="py-5">
+    <!-- <section class="py-5">
       <div class="container d-grid column-gap-3">
           <div class="row">
             <div id="home-card-menu" class="card col p-2" style="width: 18rem; height: 8rem;">
-              <!-- use height to make into square or overlay text on image -->
+          
               <div class="card-body">
                 <p class="card-text">What's to Eat?</p>
                 <a href="pages/menu.html" class="btn btn-primary">View our Menu</a>
@@ -83,7 +118,7 @@
             </div>
             
             <div id="home-card-about-us" class="card col p-2" style="width: 18rem; height: 8rem;">
-              <!-- use height to make into square or overlay text on image -->
+         
               <div class="card-body">
                 <p class="card-text">What We're Up To</p>
                 <a href="pages/menu.html" class="btn btn-primary">See our Events</a>
@@ -91,7 +126,7 @@
             </div> 
 
             <div id="home-card-res" class="card col p-2" style="width: 18rem; height: 8rem;">
-              <!-- use height to make into square or overlay text on image -->
+     
               <div class="card-body">
                 <p class="card-text">Claim Your Spot</p>
                 <a href="#" class="btn btn-primary">Reservation Page</a>
@@ -99,33 +134,23 @@
             </div> 
         </div>
       </div>
+    </section> -->
+
+    <footer id="footer" class="container-fluid bg-primary border-top boarder-danger border-5">
       
-      <!-- cards 
-      claim your spot
-      What we're up too
-      What's to eat -->
-
-      
-
-
-
-    </section>
-
-    <footer class="container border-top boarder-danger border-5">
-      
-      <div class=" row">
+      <div class="row">
         <div class="col">
-          <h3>Contact</h3>
+          <h4>Contact</h4>
           <p>613.979.3663</p>
           <p>info@belmontottawa.com</p>
         </div>
         <div class="col">
-          <h3>1169 Bank Street</h3>
+          <h4>1169 Bank Street</h4>
           <p>Ottawa, Ontario</p>
           <p>K1S 3X7</p>
         </div>
         <div class="col">
-          <h3>Hours</h3>
+          <h4>Hours</h4>
           <div class="row">
             <div class="col">
               <p>Monday - Thursday</p>

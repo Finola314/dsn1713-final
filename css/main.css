@@ -29,9 +29,10 @@ h1 {
 
 :root {
   --bs-primary-rgb: 163, 189, 189;
-  --bs-body-bg: #a3bdbd;
-  --bs-primary: #d8e6e9;
-  --bg-body-tertiary: #a3bdbd;
+  --bs-body-bg: #d8e6e9;
+  --bs-primary: #a3bdbd;
+  --bs-primary-rgb: 163, 189, 189;
+  /* --bg-body-tertiary: #a3bdbd; */
   --bs-border-color: #861f29;
   --bs-btn-padding-y: 1rem; 
   --bs-btn-padding-x: .5rem;
@@ -178,3 +179,10 @@ h1 {
   --bs-accordion-active-color: var(--bs-primary-text-emphasis);
   --bs-accordion-active-bg: var(--bs-primary-bg-subtle);
  } */
+
+
+
+ /* foot section */
+ #footer p {
+  line-height: 50%;
+ }
