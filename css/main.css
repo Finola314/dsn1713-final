@@ -11,7 +11,15 @@ h1, h2, h3, h4 {
 
 h1 {
   color: white;
+  max-width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
+
+.hero-text {
+  color: white;
+}
+
 
 .card-img-top {
   width: 250px;
@@ -20,14 +28,26 @@ h1 {
 }
 
 :root {
-  --bs-primary: #a3bdbd;
   --bs-primary-rgb: 163, 189, 189;
-  --bs-body-bg: #d8e6e9;
+  --bs-body-bg: #a3bdbd;
+  --bs-primary: #d8e6e9;
   --bg-body-tertiary: #a3bdbd;
-  --bg-body-tertiary-rgb: 163, 189, 189;
+  --bs-border-color: #861f29;
+  --bs-btn-padding-y: 1rem; 
+  --bs-btn-padding-x: .5rem;
 
 }
 
+.btn-lg {
+  --bs-btn-padding-y: 1.5rem;
+  --bs-btn-padding-x: 2rem;
+}
+
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 .btn-primary {
     --bs-btn-color: white;
@@ -52,6 +72,14 @@ h1 {
 }
 
 
+/* nav styling section */
+
+/* DO NOT LEAVE THIS AS IS, MUST FIX */
+.nav-item {
+  text-decoration: solid;
+  color: aliceblue;
+}
+
 /* hero section */
 #hero-home {
   background-image: url(../images/home_hero_photo.jpg);
@@ -60,7 +88,16 @@ h1 {
   background-repeat: no-repeat;
   background-color: black;
   height: 800px;
+  text-align: center;
  }
+
+ #hero-home-content {
+  background-color: #861f2990;
+  margin: auto;
+  text-align: center;
+
+ }
+
 
  #hero-menu {
   background-image: url(../images/menu_hero_photo.jpg);
