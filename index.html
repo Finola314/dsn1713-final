@@ -17,7 +17,7 @@
   <header>
 
     <nav class="navbar navbar-expand-lg bg-primary border-bottom boarder-danger border-5"> 
-      <div class="container">
+      <div class="container logo">
         <a class="navbar-brand" href="../index.html">
           <img src="images/belmont_vector_logo.png" width="30" height="30" alt="Belmont Logo">
         </a>
@@ -38,7 +38,9 @@
           </ul>
           
           <span class="navbar-text">
-            <button type="button" class="btn btn-danger">Book Now</button>
+            <a href="pages/reservation.html">
+              <button type="button" class="btn btn-danger">Reserve Now</button>
+            </a>
           </span>
         </div>
       </div>
@@ -54,7 +56,10 @@
             <div class="col-10 text-center mt-5">
               <h1>The Belmont, Ottawa's Finest</h1>
               <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <button type="button" class="btn btn-success btn-lg" >Dine with us Now</button>
+              <a href="pages/reservation.html">
+                <button type="button" class="btn btn-success btn-lg" >Dine with us Now</button>
+              </a>
+              
             </div>
           </div>
         </div>
@@ -71,50 +76,26 @@
             
             <div style="grid-template-columns: 1fr 1fr 1fr;" class="d-grid gap-3">
               
-              <div id="home-card-menu" class="card p-2" style="height: 8rem;">
+              <div id="home-card-menu" class="card p-2 d-flex justify-content-evenly align-items-center" style="height: 8rem;">
                 <a href="pages/menu.html" class="btn btn-sm btn-primary">What's to Eat?</a>
               </div>
               
-              <div id="home-card-about-us" class="card p-2" style="height: 8rem;">
+              <div id="home-card-about-us" class="card p-2 d-flex justify-content-evenly align-items-center" style="height: 8rem;">
                 <a href="#" class="btn btn-sm btn-primary">What We're Up To</a>
               </div>
               
-              <div id="home-card-res" class="card p-2" style="height: 8rem;">
+              <div id="home-card-res" class="card p-2 d-flex justify-content-evenly align-items-center" style="height: 8rem;">
                 <a href="pages/reservation.html" class="btn btn-sm btn-primary">Claim Your Spot</a>
               </div>
 
             </div>
 
 
-            <!-- <div>
-              <div class="row d-grid gap-3">
-                  <div class="row">
-                    <div id="home-card-menu" class="card col p-2" style="width: 18rem; height: 8rem;">
-                      <div class="card-body align-middle">
-                        <a href="pages/menu.html" class="btn btn-sm btn-primary">What's to Eat?</a>
-                      </div>
-                    </div>
-                    
-                    <div id="home-card-about-us" class="card col p-2" style="width: 18rem; height: 8rem;">
-                      <div class="card-body">
-                        <a href="pages/menu.html" class="btn btn-sm btn-primary">What We're Up To</a>
-                      </div>
-                    </div> 
-
-                    <div id="home-card-res" class="card col p-2" style="width: 18rem; height: 8rem;">
-                      <div class="card-body">
-                        <a href="#" class="btn btn-sm btn-primary">Claim Your Spot</a>
-                      </div>
-                    </div> 
-                </div>
-              </div>
-             </div> -->
-
 
           </div>
 
           <div class="col col-lg-6 col-sm-12 order-sm-2 order-lg-2"> 
-            <img class="img-fluid" src="images/happy_customers_eating.jpg" alt="A man and women sharing a meal and smiling at the camera">
+            <img class="img-fluid boarderimage" src="images/happy_customers_eating.jpg" alt="A man and women sharing a meal and smiling at the camera">
           </div>
         </div>
       </div>
@@ -122,20 +103,20 @@
     </section>
 
 
-    <footer id="footer" class=" bg-primary border-top boarder-danger border-5">
+    <footer id="footer" class="py-5 bg-primary border-top boarder-danger border-5">
       <div class="container">
       <div class="row ">
-        <div class="col col-lg-3 col-sm-6">
+        <div class="col col-lg-3 col-sm-6 col-12">
           <h4>Contact</h4>
           <p>613.979.3663</p>
           <p>info@belmontottawa.com</p>
         </div>
-        <div class="col col-lg-3 col-sm-6">
+        <div class="col col-lg-3 col-sm-6 col-12">
           <h4>1169 Bank Street</h4>
           <p>Ottawa, Ontario</p>
           <p>K1S 3X7</p>
         </div>
-        <div class="col col-lg-4 col-sm-12">
+        <div class="col col-lg-4 col-sm-12 col-12">
           <h4>Hours</h4>
           <div class="row">
             <div class="col">
@@ -152,18 +133,28 @@
             </div>
           </div>
         </div>
-        <div class="col col-lg-2 col-sm-12 text-center">
-          <a href="#">
-            <img src="images/instagram-logo.png" width="30" height="30" alt="instagram logo linking to Belmont instagram page">
-          </a>
-          <a href="#">
-            <img src="images/twitter-logo.png" width="30" height="30" alt="instagram logo linking to Belmont instagram page">
-          </a>
-          <a href="#">
-            <img src="images/gmail-logo.png" width="30" height="30" alt="instagram logo linking to Belmont instagram page">
-          </a>
 
+        <div id="social-footer" class="pt-5 col col-lg-2 col-sm-12 col-12 justify-content-center">
+          <div class="d-flex justify-content-evenly align-items-center">
+            <div class="p-2">
+              <a href="#">
+                <img class="logo" src="images/instagram-logo.png" width="30" height="30" alt="instagram logo linking to Belmont instagram page">
+              </a>
+            </div>
+            <div class="p-2">
+              <a href="#">
+                <img class="logo" src="images/twitter-logo.png" width="30" height="30" alt="instagram logo linking to Belmont instagram page">
+              </a>
+            </div>
+            <div class="p-2">
+              <a href="#">
+                <img class="logo" src="images/gmail-logo.png" width="30" height="30" alt="instagram logo linking to Belmont instagram page">
+              </a>
+            </div>
+          </div>
         </div>
+
+
 
       </div>
 </div>

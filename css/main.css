@@ -39,8 +39,10 @@ h5 {
 }
 
 img {
-  border: 3px solid black;
+  border-radius: 10px;
 }
+
+
 
 
 .card-img-top {
@@ -51,7 +53,7 @@ img {
 
 :root {
   --bs-primary-rgb: 163, 189, 189;
-  --bs-body-bg: #d8e6e9;
+  --bs-body-bg: #90a5a540;
   --bs-primary: #90a5a5;
   --bs-primary-rgb: 144, 165, 165;
   /* --bg-body-tertiary: #a3bdbd; */
@@ -83,10 +85,10 @@ img {
 
 .btn-danger {
     --bs-btn-color: white;
-    --bs-btn-border-color: #b4caca;
+    --bs-btn-border-color: #6b1821;
     --bs-btn-border-weight: 5;
     --bs-btn-hover-bg: #6b1821;
-    --bs-btn-hover-border-color: #b4caca;
+    --bs-btn-hover-border-color: #3f0e14;
     --bs-btn-active-bg: #861f29;
     --bs-btn-active-border-color: #861f29;
     --bs-btn-disabled-color: #861f29;
@@ -255,22 +257,6 @@ btn-sm {
   }
 
 
-  /* .accordion {
-  --bs-accordion-color: var(--bs-body-color);
-  --bs-accordion-bg: var(--bs-body-bg);
-  
-  --bs-accordion-border-color: var(--bs-border-color);
-  
-  --bs-accordion-btn-color: var(--bs-body-color);
-  --bs-accordion-btn-bg: var(--bs-accordion-bg);
-  
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-
-  --bs-accordion-active-color: var(--bs-primary-text-emphasis);
-  --bs-accordion-active-bg: var(--bs-primary-bg-subtle);
- } */
-
-
 
 
 
@@ -287,8 +273,14 @@ btn-sm {
 
  /* foot section */
  #footer p {
-  /* line-height: 50%; */
   line-height: 1;
  }
+
+
+ #social-footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
 
 
