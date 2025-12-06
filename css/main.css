@@ -54,9 +54,12 @@ img {
 :root {
   --bs-primary-rgb: 163, 189, 189;
   --bs-body-bg: #90a5a540;
+  --bs-body-light: white;
   --bs-primary: #90a5a5;
   --bs-primary-rgb: 144, 165, 165;
-  /* --bg-body-tertiary: #a3bdbd; */
+
+
+  /* --bs-tertiary: #861f29; */
   --bs-border-color: #861f29;
   --bs-btn-padding-y: 1rem; 
   --bs-btn-padding-x: .5rem;
@@ -148,7 +151,14 @@ btn-sm {
   background-color: #861f2990;
   margin: auto;
   text-align: center;
+ }
 
+  #hero-res-content {
+  background-color: #861f2990;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  text-align: center;
  }
 
 

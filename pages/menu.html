@@ -12,15 +12,15 @@
 
   <header>
     <nav class="navbar navbar-expand-lg bg-primary border-bottom boarder-danger border-5">
-      <div class="container">
+      <div class="container logo">
         <a class="navbar-brand" href="../index.html">
           <img src="../images/belmont_vector_logo.png" width="30" height="30" alt="Belmont Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active"  href="../pages/menu.html"><b>Menu</b></a>
             </li>
@@ -31,6 +31,12 @@
               <a class="nav-link disabled" aria-disabled="true"><b>About Us</b></a>
             </li>
           </ul>
+
+          <span class="navbar-text">
+            <a href="../pages/reservation.html">
+              <button type="button" class="btn btn-danger">Reserve Now</button>
+            </a>
+          </span>
         </div>
       </div>
     </nav>
@@ -44,11 +50,10 @@
 <body>
 
   <section id="hero-menu" class="hero">
-        <div class="container"> 
+        <div class="container-fluid" id="hero-home-content" data-bs-theme="dark"> 
             <div class="d-flex justify-content-center align-center row">
               <div class="col-10 text-center mt-5">
-                <h1>The Belmont</h1>
-                <button type="button" class="btn btn-danger btn-lg" >Book Now</button>
+                <h1>Our Menu</h1>
               </div>
             </div>
         </div>
@@ -145,6 +150,65 @@
 
 
   </section>
+
+
+  <footer id="footer" class="py-5 bg-primary border-top boarder-danger border-5">
+      <div class="container">
+        <div class="row ">
+          <div class="col col-lg-3 col-sm-6 col-12">
+            <h4>Contact</h4>
+            <p>613.979.3663</p>
+            <p>info@belmontottawa.com</p>
+          </div>
+
+          <div class="col col-lg-3 col-sm-6 col-12">
+            <h4>1169 Bank Street</h4>
+            <p>Ottawa, Ontario</p>
+            <p>K1S 3X7</p>
+          </div>
+
+          <div class="col col-lg-4 col-sm-12 col-12">
+            <h4>Hours</h4>
+            <div class="row">
+              <div class="col">
+                <p>Monday - Thursday</p>
+                <p>Friday</p>
+                <p>Saturday</p>
+                <p>Sunday</p>
+              </div>
+              <div class="col">
+                <p>5pm - 10pm</p>
+                <p>5pm - 12am</p>
+                <p>9am - 12am</p>
+                <p>9am - 10pm</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="social-footer" class="pt-5 col col-lg-2 col-sm-12 col-12 justify-content-center">
+
+            <div class="d-flex justify-content-evenly align-items-center">
+              <div class="p-2">
+                <a href="#">
+                  <img class="logo" src="../images/instagram-logo.png" width="30" height="30" alt="instagram logo linking to Belmont instagram page">
+                </a>
+            </div>
+
+            <div class="p-2">
+                <a href="#">
+                  <img class="logo" src="../images/twitter-logo.png" width="30" height="30" alt="instagram logo linking to Belmont twitter page">
+                </a>
+            </div>
+
+            <div class="p-2">
+                <a href="#">
+                  <img class="logo" src="../images/gmail-logo.png" width="30" height="30" alt="instagram logo linking to email address for the Belmont">
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 
