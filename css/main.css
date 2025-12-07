@@ -40,6 +40,11 @@ h5 {
 
 img {
   border-radius: 10px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -161,6 +166,14 @@ btn-sm {
   text-align: center;
  }
 
+  #hero-menu-content {
+  background-color: #861f2990;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  text-align: center;
+ }
+
 
  #hero-menu {
   background-image: url(../images/menu_hero_photo.jpg);
@@ -220,7 +233,7 @@ btn-sm {
 
  .accordion {
   --bs-accordion-color: #861f29;
-  --bs-accordion-bg: #d8e6e9;
+  --bs-accordion-bg: #861f2922;
   
   --bs-accordion-border-color: white;
   
@@ -231,10 +244,15 @@ btn-sm {
 
   --bs-accordion-active-color: white;
   --bs-accordion-active-bg: #861f29;
- }
- .card {
+  
+  
+  
+  --bs-body-bg: pink;
+
 
  }
+
+
   
 
 
