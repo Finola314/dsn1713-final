@@ -233,23 +233,23 @@ btn-sm {
 
  .accordion {
   --bs-accordion-color: #861f29;
-  --bs-accordion-bg: #861f2922;
-  
+  --bs-accordion-bg: #861f2920;
   --bs-accordion-border-color: white;
-  
   --bs-accordion-btn-color: white;
   --bs-accordion-btn-bg: #861f29;
-  
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(134, 31, 41);
-
   --bs-accordion-active-color: white;
   --bs-accordion-active-bg: #861f29;
-  
-  
-  
-  --bs-body-bg: pink;
+  --bs-body-bg: none;
+ }
 
+ .card-price {
+  color: #00000090;
+  font-style: italic;
+ }
 
+ #img-card {
+  border-radius: 50px;
  }
 
 
@@ -272,13 +272,19 @@ btn-sm {
     --bs-card-inner-border-radius: 0px; 
   }
 
-  @media (min-width: 37.5em) {
+  @media (min-width: 768px) {
     .product-container {
       grid-template-columns: 1fr 1fr;
     }
   }
 
-  @media (min-width: 67.5em) {
+  @media (min-width: 1200px) {
+    .product-container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 1400px) {
       .product-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
       }
