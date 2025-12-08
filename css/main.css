@@ -252,6 +252,11 @@ btn-sm {
   border-radius: 50px;
  }
 
+.accordion-button::after {
+  content: "";
+  color: white;
+}
+
 
   
 
